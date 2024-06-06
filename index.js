@@ -35,9 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const file = formValues.files;
     const imageURL = URL.createObjectURL(file);
 
-    console.log(file);
-    console.log(1, imageURL);
-
     addNewBook(name, author, imageURL);
     myModal.style.display = "none";
     footer.style.display="block"
@@ -128,20 +125,18 @@ const collectBooks = () => {
     addEditButton(book);
   });
 };
-console.log(booksArr);
 collectBooks();
 
 const editBook = (book) => {
   myModal.style.display = "block";
   footer.style.display="none"
   mainContainer.style.display = "none";
-  console.log("edit mode");
-
+ 
   const title = book.querySelector(".card-back h2").innerText;
   const author = book.querySelector(".card-back p").innerText.substring(3);
   const imgSrc = book.querySelector(".card-front img").src;
 
-  console.log(title, author, imgSrc);
+
 
   bookName.value = title;
   bookAuthor.value = author;
@@ -150,7 +145,6 @@ const editBook = (book) => {
   btnEdit.onclick = () => {
     const imageURL = URL.createObjectURL(images.files[0]);
     const author = document.getElementById("bookAuthor").value;
-    console.log(images.files);
     updateBook(book, bookName.value, author, imageURL);
     myModal.style.display = "none";
     mainContainer.style.display = "block";
