@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="icons">
+        <ul class="ulHeader">
+          <div class="iconBoxs">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+          </div>
+          <div class="iconBoxs">
+            <li><i class="fa-brands fa-twitter"></i></li>
+          </div>
+          <div class="iconBoxs">
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </div>
+          <div class="iconBoxs">
+            <li><i class="fa-solid fa-basketball"></i></li>
+          </div>
+          <div class="iconBoxs">
+            <li>
+              <a href="./second.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+          
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="companyName">
+        <p>BOOK</p>
+        <span>COMPANY</span>
+      </div>
+      <div class="searchBox">
+        <input
+          type="text"
+          id="searchInput"
+          class="search"
+          placeholder="Search a book"
+        />
+        <button id="searchBtn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="mainContainer" id="mainContainer">
+      <div class="bookContainer">
+        <div class="title">
+          <h4>Best Selling Books Ever</h4>
+        </div>
+      </div>
+
+      <div>
+        <div class="flexBox">
+          <div class="allBooks" id="allBooks">
+            <div
+              class="book1 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781982179229_p0_v2%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>The River We Remember</h2>
+                  <p>By William Kent Krueger</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book2 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9780593355381_p0_v1%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>Silver Nitrate</h2>
+                  <p>By Silvia Moreno-Garcia</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book3 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9780063207271_p0_v4%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>Family Lore</h2>
+                  <p>By Elizabeth Acevedo</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book4 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781668037713_p0_v2%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>By You Like It Darker</h2>
+                  <p>By Stephen King</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book5 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781250289698_p0_v3%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>Mind Games</h2>
+                  <p>By Nora Roberts</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book6 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781419780974_p0_v2%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>
+                    Skyshade (B&N Exclusive Edition) (The Lightlark Saga Book 3)
+                  </h2>
+                  <p>By Alex Aster</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book7 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781649374189_p0_v5%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>Onyx Storm (Deluxe Limited Edition)</h2>
+                  <p>By Rebecca Yarros</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book8 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9781982176617_p0_v3%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>
+                    Challenger: A True Story of Heroism and Disaster on the Edge
+                    of Space
+                  </h2>
+                  <p>By Adam Higginbotham</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="book9 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9780063160255_p0_v3%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>Silk: A World History</h2>
+                  <p>By Aarathi Prasad</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="book10 books"
+              onclick="this.querySelector('.card-inner').classList.toggle('flipped')"
+            >
+              <div class="card-inner">
+                <div class="card-front">
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&product=path%5B/pimages/9780063395688_p0_v2%5D&call=url%5Bfile:common/decodeProduct.chain%5D"
+                  />
+                </div>
+                <div class="card-back">
+                  <h2>Southern Man (Signed Book) (Penn Cage Series #7)</h2>
+                  <p>Greg Iles</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="addBook">
+              <div class="addBox" id="addBox">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <p>Add a book</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="footer">
+      <div class="footerFlex">
+        <div class="footerItem">
+          <h4>Publishers</h4>
+          <ul class="ulPublish">
+            <li>Bestsellers</li>
+            <li>Interviews</li>
+            <li>Authors Story</li>
+            <li>Book Fairs</li>
+            <li>Help (FAQ)</li>
+          </ul>
+        </div>
+
+        <di class="footerItem"v>
+          <h4>Contact</h4>
+          <p>
+            Stay in touch with everything ChapterOne, follow us on social media
+            and learn about new promotions.
+          </p>
+          <ul class="ulIcons">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-solid fa-basketball"></i></li>
+          </ul>
+        </di>
+
+        <div class="footerItem">
+          <h4>Social media</h4>
+          <div class="footerImgs">
+            <div class="img-container">
+                <img src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/64597150_2522195441202926_2456027307595973840_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=18de74&_nc_ohc=3oMIDDCcTEcQ7kNvgG0IRWY&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYBQDIGev1cU_9TYuCwI61dso6A-QtmqiJ33zvKCeVWd9g&oe=66622E8A" alt="" />
+                <div class="hover-text">Instagram </div>
+            </div>
+            <div class="img-container">
+                <img src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/65734138_153434425801248_7844900373272158142_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=18de74&_nc_ohc=45WU_lLTW2wQ7kNvgGy3M_6&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYBetO68cS5VD4KdP3TP6NkNGxrFH4Ir0IjEiZV_iOPBOQ&oe=6662541D" alt="" />
+                <div class="hover-text">Facebook</div>
+            </div>
+            <div class="img-container">
+                <img src="https://scontent-atl3-2.cdninstagram.com/v/t51.2885-15/65999139_159289961866393_4987927538564284962_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=RQngK9EdASgQ7kNvgG5ugV5&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYCrYYyl1yOsmhBocR56xAiPS6XDI9FXixm-VMa-aylusA&oe=66622DDB" alt="" />
+                <div class="hover-text">Twitter</div>
+            </div>
+            <div class="img-container">
+                <img src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/65124294_398049147735483_8670305428516514358_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=br3Ow7iTd0cQ7kNvgEgbQ7i&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYDLk0dFppGGe1HwgqB-Ehy4c49qDn8kdQET8OMpTU5PKQ&oe=6662607E" alt="" />
+                <div class="hover-text">LinedIn</div>
+            </div>
+            <div class="img-container">
+                <img src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/66675239_2284760738443349_6629740624649938864_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=18de74&_nc_ohc=P4ZqhCGyeEwQ7kNvgG9KeSV&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYDDnz4rXzamyumROh7q7jvF3bRtFiKecFodgLT1GMkIuA&oe=666258BA" alt="" />
+                <div class="hover-text">Gooogle</div>
+            </div>
+            <div class="img-container">
+                <img src="https://scontent-atl3-2.cdninstagram.com/v/t51.2885-15/62241246_129621398264101_3103299431831323622_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=pOPOqrrgs9AQ7kNvgHmXOiN&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYADMKhipN6iRpjJr15TJI3niICrdFe5AwxeZb_iw5ekBg&oe=6662500C" alt="" />
+                <div class="hover-text">Threads</div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <dialog open id="myModal">
+      <div class="mainContainer2">
+        <div class="newBook">
+          <h2>Fill in the inputs to add a new Book</h2>
+          <form id="myForm">
+            <input
+              type="text"
+              id="bookName"
+              name="bName"
+              placeholder="Add book name"
+            />
+            <input
+              type="text"
+              id="bookAuthor"
+              name="bAuthor"
+              placeholder="Add author"
+            />
+            <input
+              type="file"
+              id="images"
+              name="files"
+              placeholder="Add cover image"
+            />
+            <button id="btn" type="submit">Add</button>
+            <button id="btnEdit" type="button">Save</button>
+            <button id="btnDelete" type="button">Delete</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+
+
+    <script defer src="index.js"></script>
+  </body>
+</html>
